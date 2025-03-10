@@ -1,0 +1,91 @@
+Alt Seviye (Low-Level) Programlama Dili
+Donanıma çok yakın çalışan dillerdir.
+Bellek, işlemci ve donanım üzerinde doğrudan kontrol sağlar.
+Makine diline daha yakın olduğu için daha hızlı ve verimli çalışabilir.
+Ancak yazması ve anlaması daha zordur çünkü çok fazla teknik detayla uğraşmak gerekir.
+Örnekler:
+Makine dili (Binary - 0 ve 1)
+Assembly dili (Donanım üzerinde doğrudan işlem yapılabilir)
+C Dili ve Alt Seviye Özellikleri:
+C, bazı yönleriyle alt seviye özellikler sunar:
+Bellek adreslerine erişim (pointers)
+Donanım kontrolü (register, port işlemleri gibi)
+Bellek yönetimi (malloc, free gibi)
+
+Üst Seviye (High-Level) Programlama Dili
+Donanımdan daha soyut dillerdir.
+Daha okunabilir ve anlaşılırdır.
+Bellek yönetimi gibi işlemler otomatik olarak yapılır.
+Donanım detaylarıyla ilgilenmeden daha hızlı yazılım geliştirebilirsin.
+Ancak, donanıma doğrudan erişim daha sınırlıdır ve performans kaybı olabilir.
+
+Örnekler:
+Python
+Java
+JavaScript
+C#
+
+Bilgisayar herhangi bir bilgiyi yüksek ve düşük voltaj mantığı ile depolar
+1 nibble = 4 bit
+1 byte = 8 bit
+
+1. Word Nedir?
+"Word", işlemcinin doğal veri boyutudur.
+Bir işlemcinin, bir kerede işleyebildiği veri miktarını belirler.
+Word boyutu, işlemcinin bit uzunluğuna bağlıdır.
+
+💡 Örnek:
+32-bit bir işlemcinin "word" uzunluğu 32 bittir (4 byte).
+64-bit bir işlemcinin "word" uzunluğu ise 64 bittir (8 byte).
+
+⏳ 2. Eskiden Word Nasıldı?
+8-bit işlemciler (1970'ler - 80'ler):
+Word uzunluğu 8 bit (1 byte) idi.
+Aynı anda sadece 1 byte veri işleyebiliyordu.
+16-bit işlemciler (1980'ler):
+Word uzunluğu 16 bit (2 byte) oldu.
+Daha fazla veri işleyebildiği için performans arttı.
+32-bit işlemciler (1990'lar - 2000'ler):
+Word uzunluğu 32 bit (4 byte) oldu.
+Daha büyük veri ve daha geniş adresleme kapasitesi sağladı.
+64-bit işlemciler (2000'ler - günümüz):
+Word uzunluğu 64 bit (8 byte) oldu.
+Çok daha büyük veri blokları işlenebilir hale geldi.
+
+Peki, Neden Önemli?
+Bellek Yönetimi:
+
+32-bit işlemciler, maksimum 4 GB RAM kullanabilir çünkü 2³² adet bellek adresi vardır.
+64-bit işlemciler ise çok daha fazla RAM adresleyebilir (2⁶⁴ adet adres).
+Daha Büyük Veriler:
+
+64-bit işlemciler, daha büyük veri türlerini (örneğin, long long gibi) daha hızlı işler.
+Daha karmaşık ve büyük programlar daha hızlı çalışır.
+Performans:
+
+64-bit sistemler, aynı anda daha fazla veri işleyebilir. Özellikle büyük verilerle çalışan uygulamalarda bu fark çok önemlidir.
+
+MSB : en önemli bit
+LSB : en önemsiz bit
+
+işaretsiz sayı veya değişlen --> 0 - 255
+işaretli sayı veya değişlen --> -128 - +127
+
+C Değişken Tipleri
+------------------------
+BİRİNCİL
+-int
+-char
+-float
+-double
+-void
+
+TÜRETİLMİŞ
+-array
+-pointer
+-function
+
+KULLANICI TANIMLI
+-struct
+-union
+-enum
