@@ -8,11 +8,11 @@ Kuvvet/üs hesaplarının c programlama dilinde yapılması
 int main(){
     double taban, kuvvet, sonuc;
 
-    printf("Taban değerini giriniz : ");
+    printf("Taban degerini giriniz : ");
     scanf("%lf", &taban);
 
     
-    printf("Kuvvet değerini giriniz : ");
+    printf("Kuvvet degerini giriniz : ");
     scanf("%lf", &kuvvet);
 
     sonuc = pow(taban, kuvvet);
